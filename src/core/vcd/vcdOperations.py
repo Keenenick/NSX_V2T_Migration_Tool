@@ -3334,7 +3334,7 @@ class VCloudDirectorOperations(ConfigureEdgeGatewayServices):
             # only if source org vdc networks exist
             if orgVdcNetworkList:
                 # creating private IP Spaces for Org VDC Networks
-                self.createPrivateIpSpacesForNetworks(orgVdcNetworkList)
+                #self.createPrivateIpSpacesForNetworks(orgVdcNetworkList)
                 # creating target Org VDC networks
                 self.createOrgVDCNetwork(orgVdcNetworkList, inputDict, nsxObj, implicitNetworks)
                 # disconnecting target Org VDC networks
